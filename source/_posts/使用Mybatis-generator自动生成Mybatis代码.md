@@ -94,4 +94,4 @@ categories:
 
 # 4.运行maven生成代码
 
-![这里写图片描述](https://img-blog.csdn.net/2018082219474473?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](https://upcdnimg.zhanghanlun.com/typecho/uploads/2020/02/2665480212.jpg)

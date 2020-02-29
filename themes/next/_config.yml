@@ -73,7 +73,7 @@ footer:
   theme:
     # Theme & scheme info link (Theme - NexT.scheme).
     enable: false
-    # Version info of NexT after scheme info (vX.X.X).
+    # Version info of NexT after  scheme info (vX.X.X).
     version: false
 
   # Beian ICP and gongan information for Chinese users. See: http://www.beian.miit.gov.cn, http://www.beian.gov.cn
