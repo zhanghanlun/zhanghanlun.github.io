@@ -13,7 +13,7 @@ github支持githubPage静态界面来搭建我们的个人博客，自己配置�
 
 # 创建github仓库
 创建username.github.io仓库，同时setting中勾选githubpage
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200208202550128.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu,size_16,color_FFFFFF,t_70)
+![githubpagesetting.jpg][1]
 创建好后我们可以通过[zhanghanlun.github.io](https://zhanghanlun.github.io)来访问该博客
 # 利用hexo配置博客
 GithubPage支持Jelly和Hexo来搭建静态界面，本教程使用Hexo来搭建博客。
@@ -103,7 +103,7 @@ $ hexo new page about
 ## 添加文章评论和文章阅读次数
 该功能通过[valine](https://valine.js.org)来实现，而valine是通过leancloud来实现单点
 首先去[leanclode官网](https://leancloud.cn/)l注册账号然后在控制台创建一个免费的应用，找到appId和appKey。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2020020908013578.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu,size_16,color_FFFFFF,t_70)
+![leancloudsetting.jpg][2]
 修改主题配置文件_config.yml
 ```
 valine:
@@ -174,8 +174,8 @@ sitemap:
 url: https://zhanghanlun.github.io
 ```
 然后在[谷歌搜索网站](https://search.google.com/search-console)进行配置添加
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200209082916388.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200209083150282.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu,size_16,color_FFFFFF,t_70)
+![googlesetting.jpg][3]
+![googleverify.jpg][4]
 将该文件保存到source目录下
 同理[百度搜索资源平台](https://ziyuan.baidu.com/)提交也是这么做
 **踩坑注意**需要修改hexo配置文件,将该html在生成过程中保留原有格式不变
@@ -184,3 +184,9 @@ skip_render:
     - baidu_verify_.html
     - google.html
 ```
+
+
+  [1]: https://upyun.zhanghanlun.com/blog/2020/03/760561182.jpg
+  [2]: https://upyun.zhanghanlun.com/blog/2020/03/1260950982.png
+  [3]: https://upyun.zhanghanlun.com/blog/2020/03/3046963033.png
+  [4]: https://upyun.zhanghanlun.com/blog/2020/03/1230373919.png

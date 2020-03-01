@@ -24,7 +24,7 @@ import xlwt
 ```
 # 读Excel文件
 Excel文件如图所示：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200216160447216.png)
+![20200216160447216.png][1]
 ```python
 def read_excel(path):
     workbook = xlrd.open_workbook(path)
@@ -65,7 +65,7 @@ def write_excel(path):
     workbook.save(path)
 ```
 运行后的结果如下图所示
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200216184842201.png)
+![writeexcel.png][2]
 对于xlsx文件可以用xlsxwriter包来实现，具体代码如下
 ```python
 import xlsxwriter
@@ -79,3 +79,6 @@ def write_excel_xlsxwriter(path):
     worksheet.write(3, 2, "运营")
     workbook.close()
 ```
+
+  [1]: https://upyun.zhanghanlun.com/blog/2020/03/3607207475.png
+  [2]: https://upyun.zhanghanlun.com/blog/2020/03/3158387079.png

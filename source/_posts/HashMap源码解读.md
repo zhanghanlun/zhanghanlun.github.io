@@ -87,7 +87,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>
 # HashMap中的数据结构
 
 HashMap中在底层的实现主要是基于数组和链表实现的，当然还有红黑树。在处理冲突的时候应用的是链表和红黑树相结合的方法，具体的实现，请看下面的图片：
-![这里写图片描述](https://img-blog.csdn.net/20180420210741559?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180420210741559.jpg][1]
 我们知道HashMap存储的数据都存放在Entry这个数据结构中。Entry是HashMap的存储结点。
 具体的JDK源码如下：
 ```java
@@ -364,7 +364,7 @@ final Node<K,V>[] resize() {
 }
 ```
 关于resize的扩容部分的具体解释，参照了美团技术团队的一篇文章《Java 8系列之重新认识HashMap》具体如图所示：
-![这里写图片描述](https://img-blog.csdn.net/20180425132027214?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![resizehashmap.jpg][2]
 根据上图我们知道：
 原来两个的下标都是9，后来经过扩容后Key1的下标还是9，而Key2的下标变为9+16=25。
 # get方法
@@ -427,4 +427,7 @@ static final int hash(Object key) {
 关于hashMap的讲解，美团点评技术团队有一篇博客讲的很好，[
 Java 8系列之重新认识HashMap](https://tech.meituan.com/2016/06/24/java-hashmap.html)
 
+
+  [1]: https://upyun.zhanghanlun.com/blog/2020/03/930094011.jpg
+  [2]: https://upyun.zhanghanlun.com/blog/2020/03/1702097553.jpg
 
