@@ -49,7 +49,7 @@
   </div>
 {%- endif %}
 <p><a href="https://console.upyun.com/register/?invite=r1xzUyEE8" target="_blank">
-<img src="https://upyun.zhanghanlun.com/blog/2020/03/1264394640.png" style="width: 75px;">
+<img src="https://upyun.zhanghanlun.com/blog/2020/03/upyunlogo.png" style="width: 75px;">
 </a>
 </p>
 
