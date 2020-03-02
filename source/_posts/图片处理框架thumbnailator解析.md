@@ -8,7 +8,6 @@ categories: Java
 
 # 前言
 Thumbnailator 包是处理图片缩略图的,可以对图片进行裁剪，修改格式，压缩等等。非常的方便。
-<!-- more -->
 # Thumbnailator压缩图片
 ## 按长宽约束比例压缩
 简单例子代码直接上手
@@ -48,10 +47,10 @@ Thumbnails.of(file)
 		.toFile(file);
 ```
 在上述的裁剪代码中如果图片过大，我们这么裁剪会丧失很多画面内容，例子：
-![图1](https://img-blog.csdn.net/2018072922533495?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![2018072922533495.jpg][1]
 图片的分辨率为4852 * 2823
 执行上面的代码生成的图片如下：
-![这里写图片描述](https://img-blog.csdn.net/20180729225401978?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![small.jpg][2]
 我们其实想把图片先压缩然后再取中间的100 * 200像素。
 这种情况下就需要BufferedImage来实现
 ```java
@@ -70,6 +69,7 @@ private void processImage(File file, int widthThreshold, int heightThreshold) {
             } else {
                 imageTemp = Thumbnails.of(file).height(heightThreshold).asBufferedImage();
             }
+            
             Thumbnails.of(imageTemp).sourceRegion(Positions.CENTER, widthThreshold, heightThreshold)
                     .size(widthThreshold, heightThreshold).toFile(file);
         } catch (Exception e) {
@@ -78,4 +78,9 @@ private void processImage(File file, int widthThreshold, int heightThreshold) {
     }
 ```
 执行完上述代码后图片为：保留了图片的更多内容
-![这里写图片描述](https://img-blog.csdn.net/20180729225414588?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![保留.jpg][3]
+
+
+  [1]: https://upyun.zhanghanlun.com/blog/2020/03/3825459400.jpg
+  [2]: https://upyun.zhanghanlun.com/blog/2020/03/2621632345.jpg
+  [3]: https://upyun.zhanghanlun.com/blog/2020/03/1960687445.jpg

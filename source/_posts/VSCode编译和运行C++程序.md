@@ -11,17 +11,23 @@ categories: C++
 
 <!-- more -->
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200129190236794.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu,size_16,color_FFFFFF,t_70)
+![mingw.jpg][1]
 将压缩文件解压，然后添加环境变量到/bin目录，如图所示。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200129190542628.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu,size_16,color_FFFFFF,t_70)
+![运行环境.jpg][2]
 在命令窗口上运行gcc -v命令，如图所示
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200129190715222.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu,size_16,color_FFFFFF,t_70)
+![gccversion.png][3]
 # 安装C++运行插件
 ## 安装C++
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200129192322769.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu,size_16,color_FFFFFF,t_70)
+![c++.png][4]
 ## 安装Code Runnner
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2020012919244546.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu,size_16,color_FFFFFF,t_70)
+![coderunner.png][5]
 
 # 运行程序
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2020012919260847.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW5naGFubHVu,size_16,color_FFFFFF,t_70)
-```
+![run.png][6]
+
+  [1]: https://upyun.zhanghanlun.com/blog/2020/03/2002324164.jpg
+  [2]: https://upyun.zhanghanlun.com/blog/2020/03/81526822.jpg
+  [3]: https://upyun.zhanghanlun.com/blog/2020/03/4173659422.png
+  [4]: https://upyun.zhanghanlun.com/blog/2020/03/466400525.png
+  [5]: https://upyun.zhanghanlun.com/blog/2020/03/2679859813.png
+  [6]: https://upyun.zhanghanlun.com/blog/2020/03/3394691922.png

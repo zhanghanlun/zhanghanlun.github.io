@@ -5,7 +5,6 @@ tags:
 	- Mybatis
 	- Java
 categories:
-	- Java
 	- Mybatis
 ---
 # 1.前言
