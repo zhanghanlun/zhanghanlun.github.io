@@ -35,6 +35,6 @@ FLUSH PRIVILEGES;
 ## 修改登录密码
 ```sql
 use mysql;  
-update user set password=password('123') where user='root' and host='localhost';  
+update user set password=password('123') where user='root';  
 flush privileges;  
 ```
