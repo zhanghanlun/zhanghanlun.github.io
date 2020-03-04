@@ -103,8 +103,9 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:zhanghanlun/zhanghanlun.github.io.git #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  repo: git@github.com:zhanghanlun/zhanghanlun.github.io.git
   branch: master
+
 
 search:
     path: search.xml
