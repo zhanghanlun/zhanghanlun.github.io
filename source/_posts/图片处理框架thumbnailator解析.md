@@ -8,6 +8,7 @@ categories: Java
 
 # 前言
 Thumbnailator 包是处理图片缩略图的,可以对图片进行裁剪，修改格式，压缩等等。非常的方便。
+<!-- more -->
 # Thumbnailator压缩图片
 ## 按长宽约束比例压缩
 简单例子代码直接上手
