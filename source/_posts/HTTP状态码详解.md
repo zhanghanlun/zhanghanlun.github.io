@@ -1,10 +1,11 @@
 ---
 title: HTTP状态码详解
-date: 2020-02-19 17:40:45
 tags:
-	- 网络
-	- HTTP
+  - 网络
+  - HTTP
 categories: 网络
+abbrlink: 5b96dd15
+date: 2020-02-19 17:40:45
 ---
 
 # 前言

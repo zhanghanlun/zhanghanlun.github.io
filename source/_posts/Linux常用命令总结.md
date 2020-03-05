@@ -1,9 +1,10 @@
 ---
 title: Linux常用命令总结
-date: 2019-08-18 17:24:45
 tags:
-	- Linux
+  - Linux
 categories: Linux
+abbrlink: 1fe3367f
+date: 2019-08-18 17:24:45
 ---
 
 # 日期相关

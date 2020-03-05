@@ -1,10 +1,11 @@
 ---
 title: GithubPage和Hexo搭建个人博客网站
-date: 2020-02-09 12:24:45
 tags:
-	- github
-	- Hexo
+  - github
+  - Hexo
 categories: GithubPage
+abbrlink: cdbe0820
+date: 2020-02-09 12:24:45
 ---
 # 前言
 github支持githubPage静态界面来搭建我们的个人博客，自己配置。

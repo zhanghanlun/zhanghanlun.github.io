@@ -1,10 +1,11 @@
 ---
 title: Spring获取Request输入流
-date: 2018-08-12 17:24:45
 tags:
-	- Java
-	- Spring
+  - Java
+  - Spring
 categories: Java
+abbrlink: 6c67d8
+date: 2018-08-12 17:24:45
 ---
 # 前言
 

@@ -1,9 +1,10 @@
 ---
 title: 解决github打不开的问题
-date: 2020-02-08 17:24:45
 tags:
-	- github
+  - github
 categories: Github
+abbrlink: 8b74c7d0
+date: 2020-02-08 17:24:45
 ---
 # 前言
 我们经常遇到github在电脑上打不开的问题，下面我们通过添加host来解决

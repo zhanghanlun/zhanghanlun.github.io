@@ -1,9 +1,10 @@
 ---
 title: git切换分支
-date: 2018-08-18 17:24:45
 tags:
-	- git
+  - git
 categories: git
+abbrlink: efc7f2e2
+date: 2018-08-18 17:24:45
 ---
 
 git切换分支

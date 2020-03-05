@@ -1,10 +1,11 @@
 ---
 title: 安装SSR教程（科学上网）
-date: 2020-02-15 15:28:45
 tags:
-	- SSR
-	- 科学上网
+  - SSR
+  - 科学上网
 categories: SSR
+abbrlink: 2bb39acc
+date: 2020-02-15 15:28:45
 ---
 
 # 安装SSR

@@ -1,9 +1,10 @@
 ---
 title: 图片处理框架thumbnailator解析
-date: 2018-07-29 17:24:45
 tags:
-	- 图片处理
+  - 图片处理
 categories: Java
+abbrlink: 25433cb9
+date: 2018-07-29 17:24:45
 ---
 
 # 前言

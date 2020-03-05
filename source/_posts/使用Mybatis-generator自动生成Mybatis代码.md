@@ -1,11 +1,12 @@
 ---
 title: 使用Mybatis-generator自动生成Mybatis代码
-date: 2018-08-22 17:24:45
 tags:
-	- Mybatis
-	- Java
+  - Mybatis
+  - Java
 categories:
-	- Mybatis
+  - Mybatis
+abbrlink: 2e64550a
+date: 2018-08-22 17:24:45
 ---
 # 1.前言
 在我们使用Mybatis的时候，我们想要建立数据库中表的Mybatis基本的增删改查，如果表十分复杂，我们如果手写的话会十分的繁琐，这里调用了Mybatis的自动生成工具来自动生成Mybatis的代码，生成之后，我们在做自己的一些修改就可以用了。

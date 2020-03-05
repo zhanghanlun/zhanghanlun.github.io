@@ -1,10 +1,11 @@
 ---
 title: Python读写Excel
-date: 2020-02-16 19:24:45
 tags:
-	- Python
-	- Excel
+  - Python
+  - Excel
 categories: Python
+abbrlink: 672d4844
+date: 2020-02-16 19:24:45
 ---
 # 前言
 我们经常使用Python来读写Excel文件，该怎么做呢，本篇文章为大家介绍一下如何使用Python进行Excel文件的读写。

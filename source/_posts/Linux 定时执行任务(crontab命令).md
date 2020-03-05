@@ -1,10 +1,11 @@
 ---
 title: Linux 定时执行任务(crontab命令)
-date: 2019-06-12 17:24:45
 tags:
-	- Linux
-	- 定时任务
+  - Linux
+  - 定时任务
 categories: Linux
+abbrlink: 7c68ca2e
+date: 2019-06-12 17:24:45
 ---
 # 	1、前言
 &ensp;&ensp;在Linux中我们经常会需要定时去执行一些任务脚本。在Linux中有这样一个命令就是帮助我们定时执行任务脚本的。它就是**crontab**。cron是一个linux下的定时执行工具，可以在无需人工干预的情况下运行作业。

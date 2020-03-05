@@ -1,9 +1,10 @@
 ---
 title: Centos7安装MySQL
-date: 2018-02-04 17:24:45
 tags:
-	- mysql
+  - mysql
 categories: mysql
+abbrlink: df149a46
+date: 2018-02-04 17:24:45
 ---
 
 ## 获取mysql安装包

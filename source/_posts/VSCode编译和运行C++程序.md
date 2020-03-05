@@ -1,10 +1,11 @@
 ---
 title: VSCode编译和运行C++程序
-date: 2020-02-07 17:24:45
 tags:
-	- VSCode
-	- C++
+  - VSCode
+  - C++
 categories: C++
+abbrlink: c94db0dd
+date: 2020-02-07 17:24:45
 ---
 # 安装MinGW-w64
 在官方网站上找到下载资源的地址[下载链接](https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/)

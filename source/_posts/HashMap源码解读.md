@@ -1,10 +1,11 @@
 ---
 title: HashMap源码解读—Java8
-date: 2018-04-25 17:24:45
 tags:
-	- Java
-	- HashMap
+  - Java
+  - HashMap
 categories: Java
+abbrlink: 967f5fde
+date: 2018-04-25 17:24:45
 ---
 
 # 前言
