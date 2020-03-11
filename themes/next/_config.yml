@@ -107,7 +107,7 @@ creative_commons:
 # scheme: Muse
 # scheme: Mist
 scheme: Pisces
-#scheme: Gemini
+# scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -125,6 +125,7 @@ menu:
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
+  tools: /tools/ || folder
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -183,6 +184,7 @@ site_state: true
 social:
   GitHub: https://github.com/zhanghanlun || github
   E-Mail: mailto:zhanghanlunq@foxmail.com || envelope
+  CSDN: https://blog.csdn.net/zhanghanlun || heart
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -205,7 +207,7 @@ links_settings:
   #layout: block
 
 links:
-  CSDN博客: http://blog.csdn.net/zhanghanlun
+  #CSDN博客: http://blog.csdn.net/zhanghanlun
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
 toc:
