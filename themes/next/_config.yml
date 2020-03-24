@@ -696,7 +696,7 @@ google_analytics:
 baidu_analytics: e28f04c29cb9a7640a8d9670de62e318 # <app_id>
 
 # Growingio Analytics
-growingio_analytics: UA-119797993-1 # <project_id>
+growingio_analytics: # UA-119797993-1 # <project_id>
 
 # CNZZ count
 cnzz_siteid:
@@ -914,9 +914,9 @@ vendors:
   anime:
 
   # Internal version: 4.7.0
-  # fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
+  fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
   # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
-  fontawesome:
+  # fontawesome:
 
   # MathJax
   # mathjax: //cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML

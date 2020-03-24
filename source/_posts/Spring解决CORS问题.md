@@ -4,9 +4,7 @@ tags:
   - Java
   - Spring
   - CORS
-categories:
-  - Java
-  - Spring
+categories: Java
 abbrlink: 241123514
 date: 2020-03-22 10:19:45
 ---

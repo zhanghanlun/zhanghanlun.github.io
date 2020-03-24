@@ -38,6 +38,7 @@ skip_render:
     - baidu_verify_cJTXr2Sdgi.html
     - CNAME
     - baidu_verify_Y40AOkOw8D.html
+    - 404.html
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -105,10 +106,18 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:zhanghanlun/zhanghanlun.github.io.git
-  branch: master
-
+  - type: git
+    repo: git@github.com:zhanghanlun/zhanghanlun.github.io.git
+    branch: master
+  - type: cos-cdn
+    cloud: aliyun
+    bucket: zhlblog123
+    region: oss-cn-hangzhou
+    cdnEnable: true
+    deleteExtraFiles: true
+    updatePosts: true
+    secretId: LTAI4FwWcqUX3zy6DniEHebv
+    secretKey: eFwGW8ngKsgEBf1LErmIO3y5nsdcda
 
 search:
     path: search.xml
