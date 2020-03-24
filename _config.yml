@@ -116,8 +116,8 @@ deploy:
     cdnEnable: true
     deleteExtraFiles: true
     updatePosts: true
-    secretId: LTAI4FwWcqUX3zy6DniEHebv
-    secretKey: eFwGW8ngKsgEBf1LErmIO3y5nsdcda
+    secretId: 111
+    secretKey: 111
 
 search:
     path: search.xml
